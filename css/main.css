@@ -1,0 +1,16 @@
+.container {
+	padding-bottom: 30px;
+}
+
+.row:before,
+.row:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.row:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+
